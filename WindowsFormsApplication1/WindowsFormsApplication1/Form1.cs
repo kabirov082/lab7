@@ -52,5 +52,20 @@ namespace WindowsFormsApplication1
             output = output.Remove(output.Length - 1);
             textBox2.Text = output;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string input = textBox3.Text;
+            string[] split = input.Split(' ');
+            string output = "";
+            int index;
+            foreach (string s in split)
+            {
+                index = Array.IndexOf(codeMorse, s);
+                output += characters[index] + " ";
+            }
+            output = output.Remove(output.Length - 1);
+            textBox4.Text = output;
+        }
     }
 }
