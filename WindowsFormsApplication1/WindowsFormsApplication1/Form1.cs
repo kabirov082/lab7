@@ -34,5 +34,23 @@ namespace WindowsFormsApplication1
                                                         "**−−−", "***−−", "****−",
                                                         "*****", "−****", "−−***",
                                                         "−−−**", "−−−−*", "−−−−−", " " };
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string input = textBox1.Text;
+            input = input.ToUpper();
+            string output = "";
+            int index;
+            foreach (char c in input)
+            {
+                if (c != ' ')
+                {
+                    index = Array.IndexOf(characters, c);
+                    output += codeMorse[index] + " ";
+                }
+            }
+            output = output.Remove(output.Length - 1);
+            textBox2.Text = output;
+        }
     }
 }
