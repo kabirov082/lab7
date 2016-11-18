@@ -41,6 +41,7 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.helpProvider1 = new System.Windows.Forms.HelpProvider();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -130,7 +131,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(135, 157);
+            this.button2.Location = new System.Drawing.Point(145, 167);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(94, 23);
             this.button2.TabIndex = 5;
@@ -141,7 +142,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(18, 93);
+            this.label4.Location = new System.Drawing.Point(28, 103);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(59, 13);
             this.label4.TabIndex = 8;
@@ -149,7 +150,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(18, 118);
+            this.textBox4.Location = new System.Drawing.Point(28, 128);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(174, 20);
             this.textBox4.TabIndex = 7;
@@ -157,7 +158,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(18, 19);
+            this.label3.Location = new System.Drawing.Point(28, 29);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(82, 13);
             this.label3.TabIndex = 6;
@@ -165,7 +166,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(18, 38);
+            this.textBox3.Location = new System.Drawing.Point(28, 48);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(174, 20);
             this.textBox3.TabIndex = 4;
@@ -202,6 +203,7 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.HelpProvider helpProvider1;
     }
 }
 
